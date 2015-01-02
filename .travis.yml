@@ -1,8 +1,2 @@
 language: objective-c
 
-script: xctool -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-ObjC configuration Debug -sdk iphoneos8.1 CONFIGURATION_BUILD_DIR='~/build' build
-
-env:
-  global:
-  - DEVELOPER_NAME="iPhone Developer: Luca Chiarelli (U96Z79X63J)"
-  - PROFILE_UUID=e70494b3-d7e0-49a5-9806-c2f4ab647ca7
