@@ -7,4 +7,9 @@ before_script:
 after_script:
 - ./scripts/travis/remove-key.sh
 
-script: xcodebuild -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-ObjC
+script: xcodebuild -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-ObjC configuration Debug
+
+env:
+  global:
+  - DEVELOPER_NAME="iPhone Developer: Luca Chiarelli (U96Z79X63J)"
+  - PROFILE_UUID=e70494b3-d7e0-49a5-9806-c2f4ab647ca7
