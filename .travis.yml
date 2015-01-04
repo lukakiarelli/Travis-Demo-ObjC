@@ -11,5 +11,5 @@ script: xcodebuild -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-O
 
 env:
   global:
-  - DEVELOPER_NAME="iPhone Developer: Luca Chiarelli (U96Z79X63J)"
-  - PROFILE_UUID=e70494b3-d7e0-49a5-9806-c2f4ab647ca7
+  - DEVELOPER_NAME="iPhone Distribution: Spottinstyle limited (K28S6JSF7L)"
+  - PROFILE_UUID=7f062407-cbfe-4611-937b-f70ec1ed4549
