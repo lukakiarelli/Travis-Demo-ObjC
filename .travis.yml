@@ -7,7 +7,7 @@ before_script:
 after_script:
 - ./scripts/travis/remove-key.sh
 
-script: xcodebuild -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-ObjC -configuration Debug
+script: xctool -workspace Travis-Demo-ObjC.xcworkspace -scheme Travis-Demo-ObjC -configuration Debug
 
 env:
   global:
